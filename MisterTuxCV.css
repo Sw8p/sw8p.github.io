@@ -1,0 +1,76 @@
+/*-------Font Dec--------*/
+@font-face {
+    font-family: '1942_report1942_report';
+    src: url('Fonts/1942-webfont.eot');
+    src: url('Fonts/1942-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/1942-webfont.woff') format('woff'),
+         url('Fonts/1942-webfont.ttf') format('truetype'),
+         url('Fonts/1942-webfont.svg#1942_report1942_report') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '3dumbregular';
+    src: url('Fonts/3Dumb-webfont.eot');
+    src: url('Fonts/3Dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/3Dumb-webfont.woff') format('woff'),
+         url('Fonts/3Dumb-webfont.ttf') format('truetype'),
+         url('Fonts/3Dumb-webfont.svg#3dumbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '2dumbregular';
+    src: url('Fonts/2Dumb-webfont.eot');
+    src: url('Fonts/2Dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/2Dumb-webfont.woff') format('woff'),
+         url('Fonts/2Dumb-webfont.ttf') format('truetype'),
+         url('Fonts/2Dumb-webfont.svg#2dumbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background: url("head-of-tux-black.png") no-repeat center;
+	font-family: '2dumbregular';
+}
+
+h1{
+	font-family: '3dumbregular';
+	font-size: 90px;
+	margin-left: 10%;
+}
+figure{
+	float: right;
+}
+#intro{
+	text-align: center;
+	font-size: 20px;
+	text-shadow: 2px 2px 2px aqua;
+	margin-left: 14%;
+	margin-right: 14%;
+	border-bottom: aqua 2px dotted;
+}
+h2{
+	font-family: '1942_report1942_report';
+    font-size: 30px;
+    color: darkslateblue;
+    border: 4px aqua groove;
+    box-shadow: 1px 2px 2px navy;
+    text-align: center;
+}
+section p{
+    text-align: center;
+}
+h4{
+    text-decoration: underline;
+}
+a:visited{
+    color: darkorange;
+}
+a:hover{
+    color: aqua;
+    font-weight: bold;
+}
