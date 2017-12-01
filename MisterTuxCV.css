@@ -51,7 +51,7 @@ body{
 
 h1{
 	font-family: '3dumbregular';
-	font-size: 90px;
+	font-size: 5em;
 	margin-left: 10%;
 }
 figure{
@@ -59,18 +59,18 @@ figure{
 }
 #intro{
 	text-align: center;
-	font-size: 20px;
-	text-shadow: 2px 2px 2px aqua;
+	font-size: 1.4em;
+	text-shadow: 0.125em 0.125em 0.125em aqua;
 	margin-left: 14%;
 	margin-right: 14%;
-	border-bottom: aqua 2px dotted;
+	border-bottom: aqua 0.125em dotted;
 }
 h2{
 	font-family: '1942_report1942_report';
-    font-size: 30px;
+    font-size: 2em;
     color: darkslateblue;
-    border: 4px aqua groove;
-    box-shadow: 1px 2px 2px navy;
+    border: 0.25em aqua groove;
+    box-shadow: 0.0625em 0.125em 0.125em navy;
     text-align: center;
 }
 section p{
