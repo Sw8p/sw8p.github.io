@@ -32,7 +32,19 @@
     font-style: normal;
 }
 
+/* RESPONSIVE INIT*/
+
+/*Flex img*/
+img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
 body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
 	background: url("head-of-tux-black.png") no-repeat center;
 	font-family: '2dumbregular';
 }
